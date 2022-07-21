@@ -1,0 +1,24 @@
+{
+
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+          "source": "PowerShell",
+          "icon": "terminal-powershell",
+          "args": ["-ExecutionPolicy", "Bypass"]
+        }
+      },
+      "terminal.integrated.defaultProfile.windows": "PowerShell",
+      // Settings JSON
+"editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true
+},
+
+"eslint.workingDirectories": [
+  "./client", 
+  "./server"
+],
+
+"files.exclude": {
+  "**/.git": false,
+},
+}
