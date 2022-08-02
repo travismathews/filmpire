@@ -7,6 +7,7 @@ export default makeStyles((theme) => ({
   links: {
     alignItems: 'center',
     fontWeight: 'bolder',
+    textDecoration: 'none',
     [theme.breakpoints.up('xs')]: {
       display: 'flex',
       flexDirection: 'column',
@@ -14,7 +15,7 @@ export default makeStyles((theme) => ({
     },
     '&:hover': {
       cursor: 'pointer',
-      textDecoration: 'none',
+
     },
   },
   image: {
